@@ -65,6 +65,6 @@ public class Solution {
 			int col=s.nextInt();
 			p.open(row,col);
 		}
-
+		System.out.println(p.percolates());
 	}
 }
