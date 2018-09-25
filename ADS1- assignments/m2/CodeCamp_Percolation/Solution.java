@@ -23,6 +23,7 @@ public Percolation(int n) {
 	uf = new UF(n*n+2);
 }
 public void open(int row, int col) {
+	grid[row - 1][col - 1] = true;
 	if (row == 1) {
         uf.union(getUFIndex(row, col), 0);
     }
