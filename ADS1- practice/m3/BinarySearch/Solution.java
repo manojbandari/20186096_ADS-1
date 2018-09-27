@@ -33,8 +33,6 @@ class Binarysearch {
 			if (y == mid) {
 				index = index(mid);
 				upper = pairs[mid - 1];
-				//System.out.print("true and located at index: ");
-				//return index(mid);
 			} else if (y > mid) {
 				lower = mid;
 				mid = pairs[(index(lower) + index(upper)) / 2];
