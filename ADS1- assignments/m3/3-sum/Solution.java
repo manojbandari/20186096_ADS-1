@@ -43,7 +43,7 @@ class Threesum {
             j = i + 1;
             k = size - 1;
             while (j < k) {
-                if (pairs[i] + pairs[i] + pairs[k] == 0) {
+                if (pairs[i] + pairs[j] + pairs[k] == 0) {
                     count++;
                     j++;
                     k--;
@@ -57,9 +57,6 @@ class Threesum {
         System.out.println(count);
     }
 }
-/**
- * Solution class.
- */
 public final class Solution {
     /**
     * Constructs the object.
