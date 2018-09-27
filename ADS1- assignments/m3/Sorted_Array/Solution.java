@@ -39,11 +39,11 @@ class Sortedarray {
         int temp;
         int i = 1;
         while (i < pairs.length) {
-           /* if (pairs[1] < pairs[0]) {
+            if (pairs[1] < pairs[0]) {
                 temp = pairs[i];
                 pairs[i] = pairs[i - 1];
                 pairs[i - 1] = temp;
-            }*/
+            }
             if (pairs[i] < pairs[i - 1]) {
                 temp = pairs[i];
                 pairs[i] = pairs[i - 1];
