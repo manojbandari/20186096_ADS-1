@@ -55,6 +55,7 @@ class Percolation {
      * @param      col   The col
      */
     public void open(final int row, final int col) {
+        if (isOpen(row, col))  return;
         grid[row - 1][col - 1] = true;
         if (row == 1) {
             uf.union(getUFIndex(row, col), 0);
