@@ -46,7 +46,7 @@ class Threesum {
                 if (pairs[i] + pairs[j] + pairs[k] == 0) {
                     count++;
                     j++;
-            
+                    k--;
                 } else if (pairs[i] + pairs[j] + pairs[k] < 0) {
                     j++;
                 } else {
