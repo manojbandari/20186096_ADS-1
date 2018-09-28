@@ -38,6 +38,7 @@ class Sortedarray {
     public void sort() {
         int temp;
         int i = 1;
+        System.out.println(Arrays.toString(pairs));
         while (i < pairs.length) {
             if (pairs[1] < pairs[0]) {
                 temp = pairs[i];
@@ -45,6 +46,7 @@ class Sortedarray {
                 pairs[i - 1] = temp;
             }
             if (pairs[i] < pairs[i - 1]) {
+                System.out.println(pairs[i]+"   "+pairs[i-1]);
                 temp = pairs[i];
                 pairs[i] = pairs[i - 1];
                 pairs[i - 1] = temp;
