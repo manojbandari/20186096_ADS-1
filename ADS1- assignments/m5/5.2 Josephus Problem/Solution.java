@@ -1,6 +1,21 @@
-import java.util.*;
+import java.util.Scanner;
+
+/**
+ * Class for solution.
+ */
 public class Solution {
-    public static void main(String[] args) {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String testcases = scan.nextLine();
         while (scan.hasNext()) {
@@ -12,12 +27,25 @@ public class Solution {
             q.josephus(people, gap);
         }
     }
-    public static void createCircle(Deque<Integer> q, int people) {
+    
+    /**
+     * Creates a circle.
+     *
+     * @param      q       The quarter
+     * @param      people  The people
+     */
+    public static void createCircle(final Deque<Integer> q, final int people) {
         for (int i = 0; i < people; i++) {
             q.push(i);
         }
     }
 }
+
+/**
+ * Class for deque.
+ *
+ * @param      <Item>  The item
+ */
 class Deque<Item> {
     Node first = null;
     Node last = null;
@@ -30,13 +58,31 @@ class Deque<Item> {
             this.data = data;
         }
     }
+    
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return size == 0;
     }
+    
+    /**
+     * Gets the size.
+     *
+     * @return     The size.
+     */
     public int getSize() {
         return size;
     }
-    public void push(Item element) {
+    
+    /**
+     * { function_description }.
+     *
+     * @param      element  The element
+     */
+    public void push(final Item element) {
         Node oldleft = last;
         last = new Node(element);
         if (isEmpty()) {
@@ -49,7 +95,14 @@ class Deque<Item> {
         oldleft.next = last;
         size++;
     }
-    public Item pop(Item person) {
+    /**
+     * { function_description }.
+     *
+     * @param      person  The person
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public Item pop(final Item person) {
         Item d = first.data;
         if (isEmpty()) {
             return null;
@@ -81,7 +134,14 @@ class Deque<Item> {
         }
         return d;
     }
-    public void josephus(int people, int gap) {
+    
+    /**
+     * { function_description }.
+     *
+     * @param      people  The people
+     * @param      gap     The gap
+     */
+    public void josephus(final int people, final int gap) {
         Node head = first;
         while (!isEmpty()) {
             int c = 0;
@@ -96,6 +156,10 @@ class Deque<Item> {
         print = print.trim();
         System.out.println(print);
     }
+    
+    /**
+     * { function_description }.
+     */
     public void printList() {
         Node n = first;
         Node tnode = first.next;
