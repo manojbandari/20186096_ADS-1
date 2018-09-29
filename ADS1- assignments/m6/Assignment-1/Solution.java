@@ -34,9 +34,11 @@ class AddLargeNumbers {
         while(!(s1.empty()|| s2.empty())) {
             int a;
             if(s2.empty()) {
-                a=temp+s1.pop()+10;
+                a=temp+s1.pop();
             }
-            a=temp+s1.pop()+s2.pop();
+            else {
+                a=temp+s1.pop()+s2.pop();
+            }
             /*if(s1.size()!=s2.size()&&(s1.empty()||s2.empty())) {
                 l.push(a+10);
             }*/
