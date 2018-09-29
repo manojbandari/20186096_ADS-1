@@ -31,7 +31,7 @@ class AddLargeNumbers {
         }
         LinkedList<Integer> l =new LinkedList<Integer>();
         int temp=0;
-        while(!(s1.empty() || s2.empty())) {
+        while(!(s1.empty()|| s2.empty())) {
             int a=temp+s1.pop()+s2.pop();
             //System.out.println(a);
             if(s1.size()!=s2.size()&&(s1.empty()||s2.empty())) {
@@ -47,18 +47,21 @@ class AddLargeNumbers {
             }
             else {
                 l.push(a%10);
+                temp=0;
             }
         }
-      /* while(!s2.empty()) {
+        temp=1;
+        while(!s2.empty()) {
             int a= temp+s2.pop();
             temp=0;
             l.push(a);
         }
+        temp=1;
         while(!s1.empty()) {
             int a=temp+s1.pop();
             temp=0;
             l.push(a);
-        }*/
+        }
      return l;
     }
 
