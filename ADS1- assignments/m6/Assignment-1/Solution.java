@@ -47,7 +47,7 @@ class AddLargeNumbers {
             }
             else {
                 l.push(a%10);
-            
+                temp=0;
             }
         }
        /* while(!s2.empty()) {
@@ -56,11 +56,11 @@ class AddLargeNumbers {
             temp=0;
             l.push(a);
         }*/
-        while(!s1.empty()) {
+        /*while(!s1.empty()) {
             int a=temp+s1.pop();
             temp=0;
             l.push(a);
-        }
+        }*/
      return l;
     }
 
