@@ -50,14 +50,14 @@ class AddLargeNumbers {
             
             }
         }
-        s1.pop();
-        s2.pop();
         while(!s2.empty()) {
+            s2.pop();
             int a= temp+s2.pop();
             temp=0;
             l.push(a);
         }
         while(!s1.empty()) {
+            s1.pop();
             int a=temp+s1.pop();
             temp=0;
             l.push(a);
