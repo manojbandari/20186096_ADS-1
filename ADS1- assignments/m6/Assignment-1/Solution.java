@@ -31,10 +31,11 @@ class AddLargeNumbers {
         }
         LinkedList<Integer> l =new LinkedList<Integer>();
         int temp=0;
-        while(!(s1.empty() && s2.empty())) {
+        while(!(s1.empty()|| s2.empty())) {
             int a=temp+s1.pop()+s2.pop();
             if(s1.empty()||s2.empty()) {
-                l.push(a);
+                l.push(a+10);
+
             }
             else if(a>9) {
                 l.push(a%10);
