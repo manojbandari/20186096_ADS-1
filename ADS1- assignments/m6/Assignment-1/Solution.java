@@ -35,7 +35,7 @@ class AddLargeNumbers {
             int a=temp+s1.pop()+s2.pop();
             //System.out.println(a);
             if(s1.size()!=s2.size()&&(s1.empty()||s2.empty())) {
-                l.push(a+10);
+                l.push(a);
             }
             if(s1.empty()||s2.empty()) {
                 l.push(a);
@@ -47,7 +47,6 @@ class AddLargeNumbers {
             }
             else {
                 l.push(a%10);
-                temp=0;
             }
         }
       /* while(!s2.empty()) {
