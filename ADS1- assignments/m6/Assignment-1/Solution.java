@@ -20,7 +20,7 @@ class AddLargeNumbers {
         return str;
     }
 
-    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) throws Exception{
+    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
         Stack<Integer> s1=new Stack<Integer>();
         Stack<Integer> s2=new Stack<Integer>();
         for(int i=0; i < list1.size(); i++){
@@ -33,11 +33,11 @@ class AddLargeNumbers {
         int temp=0;
         while(!(s1.empty()|| s2.empty())) {
             int a=temp+s1.pop()+s2.pop();
-            //System.out.println(a);
+            
             if(s1.size()!=s2.size()&&(s1.empty()||s2.empty())) {
-                l.push(a);
+                l.push(a+10);
             }
-            if(s1.empty()||s2.empty()) {
+            else if(s1.empty()||s2.empty()) {
                 l.push(a);
 
             }
@@ -47,20 +47,7 @@ class AddLargeNumbers {
             }
             else {
                 l.push(a%10);
-                temp=0;
             }
-        }
-        temp=1;
-        while(!s2.empty()) {
-            int a= temp+s2.pop();
-            temp=0;
-            l.push(a);
-        }
-        temp=1;
-        while(!s1.empty()) {
-            int a=temp+s1.pop();
-            temp=0;
-            l.push(a);
         }
      return l;
     }
@@ -68,7 +55,7 @@ class AddLargeNumbers {
 }
 
 public class Solution {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         String p = sc.nextLine();
@@ -84,7 +71,6 @@ public class Solution {
             case "addLargeNumbers":
                 pDigits = AddLargeNumbers.numberToDigits(p);
                 qDigits = AddLargeNumbers.numberToDigits(q);
-
                 LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
                 System.out.println(AddLargeNumbers.digitsToNumber(result));
                 break;
