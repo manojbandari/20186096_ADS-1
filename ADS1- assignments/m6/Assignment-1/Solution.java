@@ -71,7 +71,7 @@ class AddLargeNumbers {
 
             }*/
 
-            if(s1.empty()|| s2.empty()) {
+            if(s1.empty()|| s2.empty() && s1.size() != s2.size()) {
                 l.push(a);
                 break;
             }
@@ -84,12 +84,12 @@ class AddLargeNumbers {
             }
         }
         while(!s1.empty()) {
-            int a=s1.pop();
+            int a=temp+s1.pop();
             l.push(a);
             temp=0;
         }
          while(!s2.empty()) {
-            int a=s2.pop();
+            int a=temp+s2.pop();
             l.push(a);
             temp=0;
         }
