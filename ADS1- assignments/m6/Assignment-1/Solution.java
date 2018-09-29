@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.LinkedList;
+import java.util.Stack;
 class AddLargeNumbers {
     public static LinkedList numberToDigits(String number) {
         LinkedList d= new LinkedList();
@@ -13,15 +14,39 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
         String str="";
-     for(int i=0; i < list.size(); i++){
-      str+=list.get(i);
-    }
-    return str;
+        for(int i=0; i < list.size(); i++){
+            str+=list.get(i);
+        }
+        return str;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-        return null;
+        Stack<Integer> s1=new Stack<Integer>();
+        Stack<Integer> s2=new Stack<Integer>();
+        for(int i=0; i < list1.size(); i++){
+            s1.push(Integer.valueOf((String) list1.get(i)));
+        }
+        for(int i=0; i < list2.size(); i++){
+            s2.push(Integer.valueOf((String) list2.get(i)));
+        }
+        LinkedList<Integer> l =new LinkedList<Integer>();
+        int temp=0;
+        while(!(s1.empty() && s2.empty())) {
+            int a=temp+s1.pop()+s2.pop();
+            if(s1.empty()||s2.empty()) {
+                l.push(a);
+            }
+            else if(a>9) {
+                l.push(a%10);
+                temp=1;
+            }
+            else {
+                l.push(a%10);
+            }
+        }
+     return l;
     }
+
 }
 
 public class Solution {
