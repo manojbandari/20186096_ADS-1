@@ -65,20 +65,20 @@ class AddLargeNumbers {
             int a = temp + s1.pop() + s2.pop();
 
             if (s1.size() != s2.size() && (s1.empty() || s2.empty())) {
-                l.push(a + 10);
-            } else if (s1.empty() || s2.empty()) {
                 l.push(a);
-
-            } else if (a > 9) {
+            } /*else if (s1.empty() || s2.empty()) {
+                l.push(a);
+            }*/
+             else if (a > 9) {
                 l.push(a % 10);
                 temp = 1;
             } else {
                 l.push(a % 10);
             }
+        
         }
         return l;
     }
-
 }
 
 /**
