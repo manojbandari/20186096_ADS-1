@@ -55,13 +55,12 @@ class AddLargeNumbers {
             int a= temp+s2.pop();
             temp=0;
             l.push(a);
-        }
+        }*/
         while(!s1.empty()) {
-            s1.pop();
             int a=temp+s1.pop();
             temp=0;
             l.push(a);
-        }*/
+        }
      return l;
     }
 
