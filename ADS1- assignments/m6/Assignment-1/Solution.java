@@ -66,9 +66,9 @@ class AddLargeNumbers {
 
            /* if (s1.size() != s2.size() && (s1.empty() || s2.empty())) {
                 l.push(a);
-            }*/ /*if (s1.empty() || s2.empty()) {
+            }*/ if (s1.empty() || s2.empty()) {
                 l.push(a);
-            }*/
+            }
              if (a > 9) {
                 l.push(a % 10);
                 temp = 1;
