@@ -88,11 +88,13 @@ class AddLargeNumbers {
             }
         }
         while(!s1.empty()) {
+            s1.pop();
             int a=temp+s1.pop();
             l.push(a);
             temp=0;
         }
          while(!s2.empty()) {
+            s2.pop();
             int a=temp+s2.pop();
             l.push(a);
             temp=0;
