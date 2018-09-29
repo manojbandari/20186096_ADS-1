@@ -50,7 +50,6 @@ class AddLargeNumbers {
                 temp=0;
             }
         }
-        temp=1;
         while(!s2.empty()) {
             int a= temp+s2.pop();
             temp=0;
