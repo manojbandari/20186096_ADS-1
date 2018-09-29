@@ -76,6 +76,7 @@ class AddLargeNumbers {
                 temp = 1;
             } else {
                 l.push(a);
+                temp=0;
             }
         }
         while(!s1.empty()) {
