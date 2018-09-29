@@ -50,17 +50,16 @@ class AddLargeNumbers {
                 temp=0;
             }
         }
-       /* while(!s2.empty()) {
-            s2.pop();
+       while(!s2.empty()) {
             int a= temp+s2.pop();
             temp=0;
             l.push(a);
-        }*/
-        /*while(!s1.empty()) {
+        }
+        while(!s1.empty()) {
             int a=temp+s1.pop();
             temp=0;
             l.push(a);
-        }*/
+        }
      return l;
     }
 
