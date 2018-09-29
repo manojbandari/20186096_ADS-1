@@ -47,7 +47,7 @@ class AddLargeNumbers {
             }
             else {
                 l.push(a%10);
-                temp=0;
+            
             }
         }
         s1.pop();
