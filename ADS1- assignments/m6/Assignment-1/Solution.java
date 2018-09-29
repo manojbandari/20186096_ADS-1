@@ -72,6 +72,7 @@ class AddLargeNumbers {
             }*/
             if(s1.empty()|| s2.empty() && s1.size() == s2.size()){
                 l.push(a);
+                break;
             }
             else if(s1.empty()|| s2.empty() && s1.size() != s2.size()) {
                 a-=10;
