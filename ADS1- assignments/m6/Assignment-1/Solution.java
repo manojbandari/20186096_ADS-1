@@ -62,6 +62,8 @@ class AddLargeNumbers {
         LinkedList<Integer> l = new LinkedList<Integer>();
         int temp = 0;
         int a=0;
+        System.out.println(s1);
+        System.out.println(s2);
         while ((!s1.empty() && !s2.empty())) {
              a = temp + s1.pop() + s2.pop();
 
@@ -88,14 +90,17 @@ class AddLargeNumbers {
                 temp=0;
             }
         }
+        if(s1.size()==s2.size()) {
+            l.push(temp);
+        }
         if(s1.size()!=s2.size()) {
         while(!s1.empty()) {
-            a=s1.pop();
+            a=temp+s1.pop();
             l.push(a);
             temp=0;
         }
          while(!s2.empty()) {
-            a=s2.pop();
+            a=temp+s2.pop();
             l.push(a);
             temp=0;
         }}
