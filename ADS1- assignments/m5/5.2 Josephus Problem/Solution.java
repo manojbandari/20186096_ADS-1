@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+final public class Solution {
     /**
      * Constructs the object.
      */
@@ -27,7 +27,6 @@ public class Solution {
             q.josephus(people, gap);
         }
     }
-    
     /**
      * Creates a circle.
      *
@@ -47,10 +46,25 @@ public class Solution {
  * @param      <Item>  The item
  */
 class Deque<Item> {
-    Node first = null;
-    Node last = null;
-    int size = 0;
-    String print = "";
+    /**
+     * Node first.
+     */
+    private Node first = null;
+    /**
+     * Node last.
+     */
+    private Node last = null;
+    /**
+     * int size.
+     */
+    private int size = 0;
+    /**
+     * string print.
+     */
+    private String print = "";
+    /**
+     * Class for node.
+     */
     class Node {
         Item data;
         Node next;
@@ -58,7 +72,6 @@ class Deque<Item> {
             this.data = data;
         }
     }
-    
     /**
      * Determines if empty.
      *
@@ -67,7 +80,6 @@ class Deque<Item> {
     public boolean isEmpty() {
         return size == 0;
     }
-    
     /**
      * Gets the size.
      *
@@ -76,7 +88,6 @@ class Deque<Item> {
     public int getSize() {
         return size;
     }
-    
     /**
      * { function_description }.
      *
@@ -134,7 +145,6 @@ class Deque<Item> {
         }
         return d;
     }
-    
     /**
      * { function_description }.
      *
@@ -156,7 +166,6 @@ class Deque<Item> {
         print = print.trim();
         System.out.println(print);
     }
-    
     /**
      * { function_description }.
      */
