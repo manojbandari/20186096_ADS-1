@@ -66,10 +66,21 @@ class Deque<Item> {
      * Class for node.
      */
     class Node {
-        Item data;
-        Node next;
-        Node(Item data) {
-            this.data = data;
+        /**
+         * Item data.
+         */
+        private Item data;
+        /**
+         * Node next.
+         */
+        private Node next;
+        /**
+         * Constructs the object.
+         *
+         * @param      data1  The data 1
+         */
+        Node(final Item data1) {
+            this.data = data1;
         }
     }
     /**
