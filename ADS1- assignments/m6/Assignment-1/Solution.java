@@ -89,14 +89,13 @@ class AddLargeNumbers {
             }
         }
         if(s1.size()!=s2.size()) {
-        l.remove();
         while(!s1.empty()) {
-            a=temp+s1.pop();
+            a=s1.pop();
             l.push(a);
             temp=0;
         }
          while(!s2.empty()) {
-            a=temp+s2.pop();
+            a=s2.pop();
             l.push(a);
             temp=0;
         }}
