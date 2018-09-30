@@ -70,7 +70,7 @@ class AddLargeNumbers {
                 l.push(a);
 
             }*/
-            if(s1.empty()|| s2.empty() && s1.size() == s2.size()){
+            /*if(s1.empty()|| s2.empty() && s1.size() == s2.size()){
                 l.push(a);
                 break;
             }
@@ -78,8 +78,8 @@ class AddLargeNumbers {
                 a-=10;
                 l.push(a);
                 break;
-            }
-            else if (a > 9) {
+            }*/
+            if (a > 9) {
                 l.push(a % 10);
                 temp = 1;
             } else {
@@ -87,6 +87,7 @@ class AddLargeNumbers {
                 temp=0;
             }
         }
+        l.remove();
         while(!s1.empty()) {
             int a=temp+s1.pop();
             l.push(a);
