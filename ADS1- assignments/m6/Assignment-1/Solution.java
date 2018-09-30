@@ -87,6 +87,16 @@ class AddLargeNumbers {
                 temp=0;
             }
         }
+        while(!s1.empty()) {
+            int a=temp+s1.pop();
+            l.push(a);
+            temp=0;
+        }
+         while(!s2.empty()) {
+            int a=temp+s2.pop();
+            l.push(a);
+            temp=0;
+        }
         return l;
     }
 
