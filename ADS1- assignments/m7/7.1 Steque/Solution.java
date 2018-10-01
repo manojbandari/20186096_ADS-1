@@ -129,7 +129,7 @@ public final class Solution {
             switch (line[0]) {
             case "push":
                 steque.push(Integer.parseInt(line[1]));
-                //System.out.println(steque);
+                System.out.println(steque);
                 break;
             case "enqueue":
                 steque.enqueue(Integer.parseInt(line[1]));
