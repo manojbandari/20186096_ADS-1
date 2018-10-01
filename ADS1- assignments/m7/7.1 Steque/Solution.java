@@ -9,14 +9,14 @@ class Steque<E> {
      * Class for node.
      */
     class Node {
-       /**
-        * data variable to store data.
-        */
-       private  E data;
-       /**
-        * next object to store reference.
-        */
-       private Node next;
+        /**
+         * data variable to store data.
+         */
+        private  E data;
+        /**
+         * next object to store reference.
+         */
+        private Node next;
         /**
          * Constructs the object.
          */
@@ -26,17 +26,26 @@ class Steque<E> {
         /**
          * Constructs the object.
          *
-         * @param      data  The data
+         * @param      data1  The data
          */
-        Node(E data1) {
+        Node(final E data1) {
             this.data = data1;
         }
-        Node(E data1, Node nextNode1) {
+        /**
+         * Constructs the object.
+         *
+         * @param      data1      The data 1
+         * @param      nextNode1  The next node 1
+         */
+        Node(final E data1, final Node nextNode1) {
             this.data = data1;
             this.next = nextNode1;
         }
     }
 
+    /**
+     * head and tail are Node class objects.
+     */
     private Node head, tail;
     int size = 0;
 
@@ -45,7 +54,7 @@ class Steque<E> {
      *
      * @param      data  The data
      */
-    public void push(E data) {
+    public void push(final E data) {
         if (head == null) {
             head = new Node(data);
             tail = head;
@@ -62,7 +71,7 @@ class Steque<E> {
      *
      * @param      data  The data
      */
-    public void enqueue(E data) {
+    public void enqueue(final E data) {
         if (head == null) {
             head = new Node(data);
             tail = head;
