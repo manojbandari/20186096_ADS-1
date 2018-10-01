@@ -4,22 +4,36 @@ import java.util.Scanner;
  *
  * @param      <E>   Generic class.
  */
-class Steque <E> {
+class Steque<E> {
     /**
      * Class for node.
      */
-    private class Node {
-        E data;
-        Node next;
+    class Node {
+       /**
+        * data variable to store data.
+        */
+       private  E data;
+       /**
+        * next object to store reference.
+        */
+       private Node next;
+        /**
+         * Constructs the object.
+         */
         Node() {
             //unused Constructor.
         }
-        Node(E data) {
-            this.data = data;
+        /**
+         * Constructs the object.
+         *
+         * @param      data  The data
+         */
+        Node(E data1) {
+            this.data = data1;
         }
-        Node(E data, Node nextNode) {
-            this.data = data;
-            this.next = nextNode;
+        Node(E data1, Node nextNode1) {
+            this.data = data1;
+            this.next = nextNode1;
         }
     }
 
