@@ -1,0 +1,1 @@
+Only the option (a) will be possible . In queue the principle will be the first in first out so the options b,c and d does not occur when we enqueue  0 through to 9 in order everytime the dequeue should be the zero. 

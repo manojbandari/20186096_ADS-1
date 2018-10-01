@@ -62,26 +62,8 @@ class AddLargeNumbers {
         LinkedList<Integer> l = new LinkedList<Integer>();
         int temp = 0;
         int a=0;
-        //System.out.println(s1);
-        //System.out.println(s2);
         while ((!s1.empty() && !s2.empty())) {
-             a = temp + s1.pop() + s2.pop();
-
-           /* if (s1.size() != s2.size() && (s1.empty() || s2.empty())) {
-                l.push(a + 10);
-            } else if (s1.empty() || s2.empty()) {
-                l.push(a);
-
-            }*/
-            /*if(s1.empty()|| s2.empty() && s1.size() == s2.size()){
-                l.push(a);
-                break;
-            }
-            else if(s1.empty()|| s2.empty() && s1.size() != s2.size()) {
-                a-=10;
-                l.push(a);
-                break;
-            }*/
+            a = temp + s1.pop() + s2.pop();
             if (a > 9) {
                 l.push(a % 10);
                 temp = 1;
