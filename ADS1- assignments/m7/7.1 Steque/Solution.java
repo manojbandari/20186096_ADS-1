@@ -47,7 +47,10 @@ class Steque<E> {
      * head and tail are Node class objects.
      */
     private Node head, tail;
-    int size = 0;
+    /**
+     * size of the linked list.
+     */
+    private int size = 0;
 
     /**
      * Push data from begining of the steque.
@@ -110,7 +113,11 @@ class Steque<E> {
         System.out.println("Steque is empty.");
         return null;
     }
-
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         if (head != null) {
             String str = "";
@@ -171,3 +178,4 @@ public final class Solution {
         }
     }
 }
+
