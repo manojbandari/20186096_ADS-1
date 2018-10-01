@@ -125,7 +125,7 @@ class Steque<E> {
             while (node.next != null) {
                 str += (node.data) + ", ";
                 node = node.next;
-            };
+            }
             str += (node.data);
             return str;
         } else {
