@@ -1,0 +1,4 @@
+In first statement stack object is created.
+First while loop executes when the queue is not empty and the elements are pushed into the stack, which are dequeue from one by one.
+Second while loop executes when the stack is not empty and the elements are added or enqueue into the queue, which are removed or pop from the stack .
+Here the order of elements entering into the queue are in the reverse order when compared to the elements in the first starting queue. 
