@@ -9,6 +9,29 @@ class Ranking {
 	public void addteam(Team a) {
 		team[size++]=a;
 	}
+ 	public void selectionSort(){
+ 		for(int i=0;i<size;i++) {
+ 			int max = i;
+ 			for(int j=i+1;j<size;j++) {
+ 				if(team[max].compareTo(team[j])==1)
+ 					max=j;
+ 			}
+ 			swap(team, i, max);
+ 		}
+
+	}
+	public void swap(Team[] team, int i , int max) {
+		Team temp = team[i];
+		team[i]=team[max];
+		team[max]=temp;
+
+	}
+	public void print() {
+		for(int i=0;i<size-1;i++) {
+			System.out.print(team[i]+",");
+		}
+		System.out.println(team[size-1]);
+	}
 	/*public void selectionSort() {
 		//System.out.println(maxWins);
 		for(int i=0;i<size;i++) {
@@ -51,27 +74,4 @@ class Ranking {
 		if(vari!=0)
 		swap(team, i, vari);
 	}*/
- 	public void selectionSort(){
- 		for(int i=0;i<size;i++) {
- 			int max = i;
- 			for(int j=i+1;j<size;j++) {
- 				if(team[max].compareTo(team[j])==1)
- 					max=j;
- 			}
- 			swap(team, i, max);
- 		}
-
-	}
-	public void swap(Team[] team, int i , int max) {
-		Team temp = team[i];
-		team[i]=team[max];
-		team[max]=temp;
-
-	}
-	public void print() {
-		for(int i=0;i<size-1;i++) {
-			System.out.print(team[i]+",");
-		}
-		System.out.println(team[size-1]);
-	}
 }
