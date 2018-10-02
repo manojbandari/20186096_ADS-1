@@ -92,8 +92,12 @@ public static void main(String[] args)throws Exception{
 				Integer.parseInt(arr[2]),
 				Integer.parseInt(arr[3])));
 		}
+		try {
 		r.selectionSort();
-
+		}
+		catch(Exception e) {
+			
+		}
 		r.print();
 	}
 }
