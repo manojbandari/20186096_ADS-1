@@ -53,12 +53,11 @@ class Solution {
 		if(vari!=0)
 		swap(team, i, vari);
 	}*/
- 	public void selectionSort() throws Exception{
- 		int N= team.length;
- 		for(int i=0;i<N;i++) {
+ 	public void selectionSort(){
+ 		for(int i=0;i<size;i++) {
  			int max = i;
- 			for(int j=i+1;j<N;j++) {
- 				if((team[max].compareTo(team[j]))==1)
+ 			for(int j=i+1;j<size;j++) {
+ 				if(team[max].compareTo(team[j])==1)
  					max=j;
  			}
  			swap(team, i, max);
@@ -81,7 +80,7 @@ class Solution {
 		System.out.println(team[size-1]);
 	}
 
-public static void main(String[] args)throws Exception{
+public static void main(String[] args){
 		Solution s = new Solution() ;
 		Scanner sc= new Scanner(System.in);
 		while(sc.hasNext()) {
@@ -92,12 +91,7 @@ public static void main(String[] args)throws Exception{
 				Integer.parseInt(arr[2]),
 				Integer.parseInt(arr[3])));
 		}
-		try {
 		s.selectionSort();
-		}
-		catch(Exception e) {
-
-		}
 		s.print();
 	}
 }
