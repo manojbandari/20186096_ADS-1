@@ -60,8 +60,8 @@ class Solution {
  			for(int j=i+1;j<N;j++) {
  				if((team[max].compareTo(team[j]))==1)
  					max=j;
- 			swap(team, i, max);
  			}
+ 			swap(team, i, max);
  		}
 
 	}
@@ -82,22 +82,22 @@ class Solution {
 	}
 
 public static void main(String[] args)throws Exception{
-		Solution r = new Solution() ;
-		Scanner s= new Scanner(System.in);
-		while(s.hasNext()) {
-			String[] arr= s.nextLine().split(",");
+		Solution s = new Solution() ;
+		Scanner sc= new Scanner(System.in);
+		while(sc.hasNext()) {
+			String[] arr= sc.nextLine().split(",");
 			//System.out.println(Arrays.toString(arr));
-			r.addteam(new Team(arr[0],
+			s.addteam(new Team(arr[0],
 				Integer.parseInt(arr[1]),
 				Integer.parseInt(arr[2]),
 				Integer.parseInt(arr[3])));
 		}
 		try {
-		r.selectionSort();
+		s.selectionSort();
 		}
 		catch(Exception e) {
-			
+
 		}
-		r.print();
+		s.print();
 	}
 }
