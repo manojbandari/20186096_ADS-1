@@ -21,11 +21,11 @@ import java.lang.Comparable;
 			return 0;
 		}
 		else {
-			if(this.losses<t1.losses) {
-				return 0;
-			}
-			else if(this.losses > t1.losses) {
+			if(this.losses>t1.losses) {
 				return 1;
+			}
+			else if(this.losses < t1.losses) {
+				return 0;
 			}
 			else {
 				if(this.draws< t1. draws) {

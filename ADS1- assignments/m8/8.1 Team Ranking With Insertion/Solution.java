@@ -1,10 +1,10 @@
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.*;
-class Ranking {
+class Solution {
 	Team[] team;
 	int size;
-	Ranking() {
+	Solution() {
 		team =new Team[10];
 		size=0;
 	}
@@ -81,10 +81,8 @@ class Ranking {
 		System.out.println(team[size-1]);
 	}
 
-}
-class Solution {
-	public static void main(String[] args)throws Exception{
-		Ranking r = new Ranking() ;
+public static void main(String[] args)throws Exception{
+		Solution r = new Solution() ;
 		Scanner s= new Scanner(System.in);
 		while(s.hasNext()) {
 			String[] arr= s.nextLine().split(",");
@@ -94,12 +92,7 @@ class Solution {
 				Integer.parseInt(arr[2]),
 				Integer.parseInt(arr[3])));
 		}
-		try {
 		r.selectionSort();
-		}
-		catch(Exception e) {
-
-		}
 
 		r.print();
 	}
