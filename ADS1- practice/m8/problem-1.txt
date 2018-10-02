@@ -1,0 +1,18 @@
+selection sort:
+find the minimum element in the array and swap according to the order. It checks minimum element in alphabetical order.
+Its order of growth is  O(N^2) because it performs two loops. first loop is to iterate through all elements one by one  and second loop is to find the minimum element from the array or group of elements.
+
+
+	[E A S Y Q U E S T I O N]
+min-A	[A E S Y Q U E S T I O N]
+min-E	[A E S Y Q U E S T I O N]
+min-E	[A E E Y Q U S S T I O N]
+min-I	[A E E I Q U S S T Y O N]
+min-N	[A E E I N U S S T Y O Q]
+min-O   [A E E I N O S S T Y U Q]
+min-Q	[A E E I N O Q S T Y U S]
+min-S	[A E E I N O Q S S Y U T]
+min-T	[A E E I N O Q S S T U Y]
+min-U	[A E E I N O Q S S T U Y]
+
+
