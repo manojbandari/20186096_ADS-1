@@ -5,15 +5,20 @@ import java.util.Scanner;
 /**
  * Class for solution with main method.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
     private Solution() {
         //empty constructor
     }
+    /**
+     * main method.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
-        Ranking r = new Ranking() ;
+        Ranking r = new Ranking();
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             String[] arr = sc.nextLine().split(",");
@@ -27,6 +32,7 @@ class Solution {
         r.print();
     }
 }
+
 
 
 
