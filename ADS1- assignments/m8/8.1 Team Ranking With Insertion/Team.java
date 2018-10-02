@@ -1,4 +1,7 @@
-public class Team{
+import java.util.*;
+import java.lang.Comparable;
+
+ class Team implements Comparable<Team>{
 	String name;
 	int wins;
 	int losses;
@@ -8,6 +11,31 @@ public class Team{
 		this.wins= wins;
 		this.losses= losses;
 		this.draws= draws;
+	}
+	public int compareTo(Team t1)
+	{
+		if(this.wins< t1.wins) {
+			return 1;
+		}
+		else if(this.wins>t1.wins) {
+			return 0;
+		}
+		else {
+			if(this.losses<t1.losses) {
+				return 0;
+			}
+			else if(this.losses > t1.losses) {
+				return 1;
+			}
+			else {
+				if(this.draws< t1. draws) {
+					return 1;
+				}
+				else {
+					return 0;
+				}
+			}
+		}
 	}
 	 public String getName(){
 	  return name;
@@ -42,3 +70,4 @@ public class Team{
 	    	return this.name;
 	    }
 }
+
