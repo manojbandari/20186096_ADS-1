@@ -28,7 +28,7 @@ final class Solution {
                                Integer.parseInt(arr[2]),
                                Integer.parseInt(arr[2 + 1])));
         }
-        r.insertionSort();
+        r.selectionSort();
         r.print();
     }
 }

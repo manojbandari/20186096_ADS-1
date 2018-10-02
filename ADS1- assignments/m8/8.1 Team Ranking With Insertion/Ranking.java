@@ -16,7 +16,7 @@ class Ranking {
 	}
 	// selection sort bases on the given conditions
 	// Order of growth for selection sort is O(N^2)
- 	public void insertionSort(){
+ 	public void selectionSort(){
  		for(int i=0;i<size;i++) { // complexity =N
  			int max = i;
  			for(int j=i+1;j<size;j++) { // complexity = N
