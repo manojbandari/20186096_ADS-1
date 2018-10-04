@@ -1,0 +1,13 @@
+INPUT> insertionsort 1,1,1,1,1,1,1,1,1,1
+OUTPUT> 1,1,1,1,1,1,1,1,1,1
+9:Loop count
+0:Swap count
+
+
+selectionsort 1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1
+54:Loop count
+9:Swap count
+
+
+According to the given output, basic insertion sort will runs faster.
