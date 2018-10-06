@@ -135,15 +135,18 @@ class Sorting{
 					size1++;
 					finalstudents[k++]=students[i];
 				}
-				if(students[i].getReservation().equals("SC")&& sCount< scCategory&&scCategory!=0) {
+				else if(students[i].getReservation().equals("SC")&& sCount< scCategory&&scCategory!=0) {
 					sCount+=1;
 					size1++;
 					finalstudents[k++]=students[i];
 				}
-				else if(students[i].getReservation().equals("ST")&& stCount< stCategory&&scCategory!=0) {
+				else if(students[i].getReservation().equals("ST")&& stCount< stCategory&&stCategory!=0) {
 					stCount+=1;
 					finalstudents[k++]=students[i];
 					size1++;
+				}
+				if(bCount==bcCategory&&sCount==scCategory&&stCount==stCategory) {
+					finalstudents[k++]=students[i];
 				}
 		
 			}

@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -55,14 +55,11 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-Aditya,80,ST
-priya,72,SC
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
+	at Sorting.criteria(Solution.java:149)
+	at Solution.main(Solution.java:192)
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 divya,99,ST
 Ishita,99,Open
@@ -135,16 +132,11 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Ishita,99,Open
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-Raj,87,BC
-Aditya,80,ST
-priya,72,SC
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Sorting.criteria(Solution.java:149)
+	at Solution.main(Solution.java:192)
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,Open
@@ -172,9 +164,9 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-Aditya,80,ST
-priya,76,SC
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+	at Sorting.criteria(Solution.java:149)
+	at Solution.main(Solution.java:192)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -213,8 +205,8 @@ Aditya,80,Open
 priya,76,SC
 Tanya,66,BC
 Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:158)
-	at Solution.main(Solution.java:190)
+	at Sorting.printfinal(Solution.java:161)
+	at Solution.main(Solution.java:193)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -302,8 +294,8 @@ Ira,93,Open
 Raj,87,Open
 mahesh,87,Open
 Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:158)
-	at Solution.main(Solution.java:190)
+	at Sorting.printfinal(Solution.java:161)
+	at Solution.main(Solution.java:193)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -397,6 +389,6 @@ Aditya,80,ST
 priya,72,SC
 varsha,66,BC
 Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:158)
-	at Solution.main(Solution.java:190)
+	at Sorting.printfinal(Solution.java:161)
+	at Solution.main(Solution.java:193)
 ----------------------------------------
