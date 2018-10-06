@@ -1,5 +1,9 @@
 import java.util.*;
 import java.lang.Comparable;
+
+/**
+ * Class for student.
+ */
 class Student implements Comparable<Student> {
 	String name;
 	String dateofbirth;
@@ -24,6 +28,13 @@ class Student implements Comparable<Student> {
 				} else if (this.subject2marks > t1.subject2marks) {
 					return 0;
 				} else {
+					if (this.getDateofbirth2() < t1.getDateofbirth2()) {
+							return 1;
+						} else if (this.getDateofbirth2() > t1.getDateofbirth2()) {
+							return 0;
+						} else {
+
+
 					if (this.getDateofbirth() < t1.getDateofbirth()) {
 						return 1;
 					} else if (this.getDateofbirth() > t1.getDateofbirth()) {
@@ -37,7 +48,7 @@ class Student implements Comparable<Student> {
 
 					}
 
-
+				}
 				}
 			}
 		}
@@ -50,6 +61,10 @@ class Student implements Comparable<Student> {
 	public int getDateofbirth1() {
 		String[] d = dateofbirth.split("-");
 		return Integer.parseInt(d[0]);
+	}
+	public int getDateofbirth2() {
+		String[] d = dateofbirth.split("-");
+		return Integer.parseInt(d[2]);
 	}
 
 	Student(String name, String dateofbirth, int  subject1marks, int subject2marks, int subject3marks, int totalmarks, String reservationcategory) {
@@ -84,6 +99,10 @@ class Student implements Comparable<Student> {
 	}
 
 }
+
+/**
+ * Class for sorting.
+ */
 class Sorting {
 	Student[] students;
 	int size;
@@ -92,10 +111,18 @@ class Sorting {
 		students = new Student[n];
 		size = 0;
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      a     { parameter_description }
+	 */
 	public void add(Student a) {
 		students[size++] = a;
 		//System.out.println(a);
 	}
+	/**
+	 * { function_description }
+	 */
 	public void sortby() {
 		for (int i = 0; i < size; i++) { // complexity =N
 			int max = i;
@@ -114,11 +141,23 @@ class Sorting {
 
 	}
 
+	/**
+	 * { function_description }
+	 */
 	public void print() {
 		for (int i = 0; i < size; i++) {
 			System.out.println(students[i].getName() + "," + students[i].getTotalMarks() + "," + students[i].getReservation());
 		}
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      totalVacancies  The total vacancies
+	 * @param      unReserved      The un reserved
+	 * @param      bcCategory      The bc category
+	 * @param      scCategory      The screen category
+	 * @param      stCategory      The st category
+	 */
 	public void criteria(int totalVacancies, int unReserved, int bcCategory, int scCategory, int stCategory) {
 		finalstudents = new Student[totalVacancies];
 		int bCount = 0;
@@ -147,7 +186,7 @@ class Sorting {
 				} else if (students[i].getReservation().equals("Open")) {
 					int j = i;
 					while (j < size) {
-						if (students[j].getReservation().equals("ST") || students[j].getReservation().equals("BC")) {
+						if (students[j].getReservation().equals("ST") || students[j].getReservation().equals("BC")||students[j].getReservation().equals("SC")) {
 							break;
 						} else if (oCount == 0 && stCount == 0 && sCount == 1) {
 							oCount++;
@@ -159,16 +198,26 @@ class Sorting {
 
 				} else if (bCount == bcCategory && sCount == scCategory && stCount == stCategory && size1 != totalVacancies) {
 					finalstudents[k++] = students[i];
-				}
+					size1++;
+				} 
 
 			}
 			if (size1 == totalVacancies) {
 				return;
 			}
-
+		}
+		if(size1!=totalVacancies) {
+			while(size1<totalVacancies) {
+				finalstudents[k]=students[size1];
+				//System.out.println(Arrays.toString(finalstudents));
+				k++;
+				size1++;
+				//System.out.println(k+ " "+size1);
+			}
 		}
 	}
 	public void printfinal(int totalVacancies) {
+		//System.out.println(totalVacancies);
 		for (int i = 0; i < totalVacancies; i++) {
 			System.out.println(finalstudents[i].getName() + "," + finalstudents[i].getTotalMarks() + "," + finalstudents[i].getReservation());
 		}
@@ -177,6 +226,9 @@ class Sorting {
 }
 
 
+/**
+ * Class for solution.
+ */
 class Solution {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

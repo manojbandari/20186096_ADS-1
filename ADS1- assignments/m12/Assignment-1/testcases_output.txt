@@ -214,7 +214,7 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,99,Open
@@ -262,8 +262,8 @@ Amit,76,Open
 Arjun,75,Open
 Your Output: 
 divya,99,Open
-Ishita,99,Open
 tanvi,99,Open
+Ishita,99,Open
 Deepak,98,Open
 Ira,93,Open
 Raj,87,Open
@@ -293,15 +293,18 @@ shyam,23,Open
 Shreya,23,Open
 
 divya,99,Open
-Ishita,99,Open
 tanvi,99,Open
+Ishita,99,Open
 Deepak,98,Open
 Ira,93,Open
 Raj,87,Open
 mahesh,87,Open
-Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:173)
-	at Solution.main(Solution.java:205)
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -394,7 +397,8 @@ riya,83,Open
 Aditya,80,ST
 priya,72,SC
 varsha,66,BC
-Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:173)
-	at Solution.main(Solution.java:205)
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
 ----------------------------------------
