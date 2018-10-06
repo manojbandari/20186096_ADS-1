@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -55,11 +55,14 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at Sorting.criteria(Solution.java:159)
-	at Solution.main(Solution.java:211)
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 divya,99,ST
 Ishita,99,Open
@@ -132,11 +135,16 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Sorting.criteria(Solution.java:159)
-	at Solution.main(Solution.java:211)
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,Open
@@ -164,9 +172,9 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Sorting.criteria(Solution.java:155)
-	at Solution.main(Solution.java:211)
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -199,9 +207,14 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at Sorting.criteria(Solution.java:168)
-	at Solution.main(Solution.java:211)
+divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
+priya,76,SC
+Tanya,66,BC
+Exception in thread "main" java.lang.NullPointerException
+	at Sorting.printfinal(Solution.java:190)
+	at Solution.main(Solution.java:222)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -281,9 +294,16 @@ Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at Sorting.criteria(Solution.java:168)
-	at Solution.main(Solution.java:211)
+divya,99,Open
+Ishita,99,Open
+tanvi,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
+Exception in thread "main" java.lang.NullPointerException
+	at Sorting.printfinal(Solution.java:190)
+	at Solution.main(Solution.java:222)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -365,7 +385,18 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 15
-	at Sorting.criteria(Solution.java:168)
-	at Solution.main(Solution.java:211)
+divya,99,ST
+Deepak,99,Open
+Ishita,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+priya,72,SC
+varsha,66,BC
+Exception in thread "main" java.lang.NullPointerException
+	at Sorting.printfinal(Solution.java:190)
+	at Solution.main(Solution.java:222)
 ----------------------------------------
