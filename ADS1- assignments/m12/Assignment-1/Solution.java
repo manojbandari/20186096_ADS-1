@@ -162,10 +162,10 @@ class Sorting{
 				else if(students[i].getReservation().equals("Open")) {
 					int j=i;
 					while(j<size) {
-						if(students[j].getReservation().equals("ST")) {
+						if(students[j].getReservation().equals("ST")||students[j].getReservation().equals("BC")) {
 							break;
 						}
-						else if(oCount==0) {
+						else if(oCount==0&&stCount==0) {
 							oCount++;
 							size1++;
 							finalstudents[k++]=students[i];

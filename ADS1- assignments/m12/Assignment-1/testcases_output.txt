@@ -393,7 +393,6 @@ Raj,87,BC
 mahesh,87,BC
 riya,83,Open
 Aditya,80,ST
-Ajay,76,Open
 priya,72,SC
 varsha,66,BC
 Exception in thread "main" java.lang.NullPointerException
