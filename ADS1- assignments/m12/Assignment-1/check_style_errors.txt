@@ -278,6 +278,7 @@ Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:165:93: '||' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:165:95: '||' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:167:49: '}' at column 7 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168: Line is longer than 80 characters (found 91). [LineLength]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:56: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:63: '==' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:65: '==' is not followed by whitespace. [WhitespaceAround]
@@ -285,6 +286,10 @@ Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:68: '&&' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:75: '==' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:77: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:78: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:80: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:86: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:168:88: '==' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:171: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:171:75: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:171:76: '=' is not followed by whitespace. [WhitespaceAround]
@@ -367,4 +372,4 @@ Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:221:75: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m12\Assignment-1\Solution.java:221:86: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 367 errors.
+Checkstyle ends with 372 errors.
