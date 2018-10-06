@@ -37,10 +37,10 @@ class Student implements Comparable<Student>{
 						return 0;
 					}
 					else{
-						if(this.getDateofbirth1()<t1.getDateofbirth1()) {
+						if(this.getDateofbirth1()>t1.getDateofbirth1()) {
 						return 1;
 					}
-						else if(this.getDateofbirth1() > t1.getDateofbirth1()) {
+						else if(this.getDateofbirth1() < t1.getDateofbirth1()) {
 						return 0;
 					}
 
