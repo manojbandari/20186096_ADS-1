@@ -159,12 +159,12 @@ class Sorting{
 					finalstudents[k++]=students[i];
 					size1++;
 				}
-				else if(students[i].getReservation().equals("Open")&&stCount==0&&oCount==0) {
+				/*else if(students[i].getReservation().equals("Open")&&stCount==0&&oCount==0) {
 					oCount++;
 					size1++;
 					finalstudents[k++]=students[i];
-				}
-				else if(bCount==bcCategory&&sCount==scCategory&&stCount==stCategory&&size1!=totalVacancies) {
+				}*/
+				else if(bCount==bcCategory||sCount==scCategory||stCount==stCategory||size1!=totalVacancies) {
 					finalstudents[k++]=students[i];
 				}
 		
