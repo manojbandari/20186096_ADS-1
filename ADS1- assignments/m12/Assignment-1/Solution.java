@@ -30,12 +30,23 @@ class Student implements Comparable<Student>{
 					return 0;
 				}
 				else {
-					if(this.getDateofbirth()>t1.getDateofbirth()) {
+					if(this.getDateofbirth()<t1.getDateofbirth()) {
 						return 1;
 					}
-					else if(this.getDateofbirth() < t1.getDateofbirth()) {
+					else if(this.getDateofbirth() > t1.getDateofbirth()) {
 						return 0;
 					}
+					else{
+						if(this.getDateofbirth1()<t1.getDateofbirth1()) {
+						return 1;
+					}
+						else if(this.getDateofbirth1() > t1.getDateofbirth1()) {
+						return 0;
+					}
+
+					}
+
+
 				}
 			}
 		}
@@ -45,10 +56,12 @@ class Student implements Comparable<Student>{
 	  String[] d=dateofbirth.split("-");
 	  return Integer.parseInt(d[1]);
 	 }
-	 
-	 public void setDateofbirth(String dateofbirth){
-	  this.dateofbirth = dateofbirth;
+	 public int getDateofbirth1(){
+	  String[] d=dateofbirth.split("-");
+	  return Integer.parseInt(d[0]);
 	 }
+	 
+	
 
 Student(String name, String dateofbirth,int  subject1marks, int subject2marks,int subject3marks,int totalmarks,String reservationcategory) {
 	this.name =name;
