@@ -30,17 +30,17 @@ class Student implements Comparable<Student>{
 					return 0;
 				}
 				else {
-					if(this.getDateofbirth()>t1.getDateofbirth()) {
+					if(this.getDateofbirth()<t1.getDateofbirth()) {
 						return 1;
 					}
-					else if(this.getDateofbirth() < t1.getDateofbirth()) {
+					else if(this.getDateofbirth() > t1.getDateofbirth()) {
 						return 0;
 					}
 					else{
-						if(this.getDateofbirth1()>t1.getDateofbirth1()) {
+						if(this.getDateofbirth1()<t1.getDateofbirth1()) {
 						return 1;
 					}
-						else if(this.getDateofbirth1() < t1.getDateofbirth1()) {
+						else if(this.getDateofbirth1() > t1.getDateofbirth1()) {
 						return 0;
 					}
 
@@ -136,6 +136,7 @@ class Sorting{
 		int sCount=0;
 		int stCount=0;
 		int size1=0;
+		int oCount=0;
 		int k=0;
 		for(int i=0;i<size;i++) {
 			if(i<unReserved) {
@@ -157,6 +158,11 @@ class Sorting{
 					stCount+=1;
 					finalstudents[k++]=students[i];
 					size1++;
+				}
+				else if(students[i].getReservation().equals("Open")&&oCount!=1) {
+					oCount+=1;
+					size1++;
+					finalstudents[k++]=students[i];
 				}
 				else if(bCount==bcCategory&&sCount==scCategory&&stCount==stCategory&&size1!=totalVacancies) {
 					finalstudents[k++]=students[i];
