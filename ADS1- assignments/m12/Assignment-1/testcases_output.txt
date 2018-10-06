@@ -300,8 +300,8 @@ Ira,93,Open
 Raj,87,Open
 mahesh,87,Open
 Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:190)
-	at Solution.main(Solution.java:222)
+	at Sorting.printfinal(Solution.java:175)
+	at Solution.main(Solution.java:207)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -395,6 +395,6 @@ Aditya,80,ST
 priya,72,SC
 varsha,66,BC
 Exception in thread "main" java.lang.NullPointerException
-	at Sorting.printfinal(Solution.java:190)
-	at Solution.main(Solution.java:222)
+	at Sorting.printfinal(Solution.java:175)
+	at Solution.main(Solution.java:207)
 ----------------------------------------
