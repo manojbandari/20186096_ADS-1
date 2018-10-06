@@ -1,5 +1,5 @@
 import java.util.*;
-import java.lang.*;
+import java.lang.Comparable;
 class Student implements Comparable<Student> {
 	String name;
 	String dateofbirth;
@@ -51,8 +51,6 @@ class Student implements Comparable<Student> {
 		String[] d = dateofbirth.split("-");
 		return Integer.parseInt(d[0]);
 	}
-
-
 
 	Student(String name, String dateofbirth, int  subject1marks, int subject2marks, int subject3marks, int totalmarks, String reservationcategory) {
 		this.name = name;
