@@ -50,7 +50,7 @@ class Student implements Comparable<Student>{
 				}
 			}
 		}
-		return 0;
+		return 1;
 	}
 	 public int getDateofbirth(){
 	  String[] d=dateofbirth.split("-");
