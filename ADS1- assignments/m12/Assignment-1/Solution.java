@@ -85,6 +85,7 @@ Student(String name, String dateofbirth,int  subject1marks, int subject2marks,in
 class Sorting{
 	Student[] students;
 	int size; 
+	Student[] finalstudents;
 	Sorting(int n) {
 		students= new Student[n];
 		size=0;
@@ -117,15 +118,47 @@ class Sorting{
 		}
 	}
 	public void criteria(int totalVacancies,int unReserved, int bcCategory,int scCategory,int stCategory) {
-		Student[] finalstudents= new Student[totalVacancies];
+		finalstudents= new Student[totalVacancies];
+		int bCount=0;
+		int sCount=0;
+		int stCount=0;
+		int size1=0;
+		int k=0;
 		for(int i=0;i<size;i++) {
 			if(i<unReserved) {
-				finalstudents[i]=students[i];
+				finalstudents[k++]=students[i];
+				size1++;
 			}
+			else {
+				if(students[i].getReservation().equals("BC")&& bCount< bcCategory&&bcCategory!=0) {
+					bCount+=1;
+					size1++;
+					finalstudents[k++]=students[i];
+				}
+				if(students[i].getReservation().equals("SC")&& sCount< scCategory&&scCategory!=0) {
+					sCount+=1;
+					size1++;
+					finalstudents[k++]=students[i];
+				}
+				else if(students[i].getReservation().equals("ST")&& stCount< stCategory&&scCategory!=0) {
+					stCount+=1;
+					finalstudents[k++]=students[i];
+					size1++;
+				}
 		
+			}
+			if(size1==totalVacancies) {
+				return;
+			}
+
+		}		
+	}
+	public void printfinal(int totalVacancies) {
+		for(int i=0;i<totalVacancies;i++) {
+			System.out.println(finalstudents[i].getName()+"," + finalstudents[i].getTotalMarks()+","+finalstudents[i].getReservation());
+		}
 	}
 
-}
 }
 
 
@@ -152,7 +185,8 @@ class Solution {
 			}
 			sor.sortby();
 			sor.print();
+			System.out.println();
 			sor.criteria(totalVacancies,unReserved,bcCategory,scCategory,stCategory);
-			sor.print();
+			sor.printfinal(totalVacancies);
 	}
 }
