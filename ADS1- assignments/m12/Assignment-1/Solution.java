@@ -145,7 +145,7 @@ class Sorting{
 					finalstudents[k++]=students[i];
 					size1++;
 				}
-				if(bCount==bcCategory&&sCount==scCategory&&stCount==stCategory) {
+				else if(bCount==bcCategory&&sCount==scCategory&&stCount==stCategory&&size1!=totalVacancies) {
 					finalstudents[k++]=students[i];
 				}
 		

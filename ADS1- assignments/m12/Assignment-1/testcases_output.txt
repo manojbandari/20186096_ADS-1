@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -55,11 +55,14 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at Sorting.criteria(Solution.java:149)
-	at Solution.main(Solution.java:192)
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 divya,99,ST
 Ishita,99,Open
@@ -132,11 +135,16 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Sorting.criteria(Solution.java:149)
-	at Solution.main(Solution.java:192)
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,Open
@@ -164,9 +172,9 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Sorting.criteria(Solution.java:149)
-	at Solution.main(Solution.java:192)
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
