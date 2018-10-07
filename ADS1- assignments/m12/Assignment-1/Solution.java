@@ -209,10 +209,8 @@ class Sorting {
 		if(size1!=totalVacancies) {
 			while(size1<totalVacancies) {
 				finalstudents[k]=students[size1];
-				//System.out.println(Arrays.toString(finalstudents));
 				k++;
 				size1++;
-				//System.out.println(k+ " "+size1);
 			}
 		}
 	}

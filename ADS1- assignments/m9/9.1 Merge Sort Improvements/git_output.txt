@@ -1,0 +1,7 @@
+[master 519c2bf] "ads1_m9_a1: 4/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 4 files changed, 4 insertions(+), 3 deletions(-)
+ create mode 100644 ADS1- assignments/m9/9.1 Merge Sort Improvements/md5/score.txt
+ create mode 100644 ADS1- assignments/m9/9.1 Merge Sort Improvements/result/score.json
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/manojbandari/20186096_ADS-1.git
+   aa8e78c..519c2bf  master -> master
