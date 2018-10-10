@@ -9,15 +9,15 @@ class Minheap {
      *  worst case :O(n)
      *  Average case: O(n)
      *
-     * @param      a     { parameter_description }
+     * @param      arr     { parameter_description }
      *
      * @return     True if heap, False otherwise.
      */
     public boolean isHeap(final Comparable[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            if (2 * i+1 < arr.length && 2 * i + 2 < arr.length) {
+            if (2 * i + 1 < arr.length && 2 * i + 2 < arr.length) {
                 if (arr[i].compareTo(arr[2 * i + 1]) > 0
-                 || arr[i].compareTo(arr[2 * i + 2]) > 0) {
+                        || arr[i].compareTo(arr[2 * i + 2]) > 0) {
                     return false;
                 }
             }
@@ -94,3 +94,4 @@ final class Solution {
         }
     }
 }
+
