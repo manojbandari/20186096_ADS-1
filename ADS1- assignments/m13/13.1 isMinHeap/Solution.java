@@ -15,7 +15,7 @@ class Minheap {
      */
     public boolean isHeap(final Comparable[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            if (2 * i < arr.length && 2 * i + 1 < arr.length) {
+            if (2 * i+1 < arr.length && 2 * i + 2 < arr.length) {
                 if (arr[i].compareTo(arr[2 * i + 1]) > 0
                  || arr[i].compareTo(arr[2 * i + 2]) > 0) {
                     return false;
