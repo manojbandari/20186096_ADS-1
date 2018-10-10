@@ -1,0 +1,63 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+true
+false
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Minheap.isHeap(Solution.java:19)
+	at Solution.main(Solution.java:64)
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+false
+false
+false
+false
+false
+false
+Your Output: 
+false
+false
+false
+false
+false
+false
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+Your Output: 
+true
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
+	at Minheap.isHeap(Solution.java:19)
+	at Solution.main(Solution.java:72)
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+true
+false
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 324
+	at Minheap.isHeap(Solution.java:19)
+	at Solution.main(Solution.java:88)
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+true
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at Minheap.isHeap(Solution.java:19)
+	at Solution.main(Solution.java:80)
+----------------------------------------

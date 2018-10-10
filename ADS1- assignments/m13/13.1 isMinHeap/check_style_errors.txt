@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m13\13.1 isMinHeap\Solution.java:12:8: Unused @param tag for 'a'. [JavadocMethod]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m13\13.1 isMinHeap\Solution.java:16:46: Expected @param tag for 'arr'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 3 errors.
