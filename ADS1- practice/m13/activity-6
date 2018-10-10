@@ -1,0 +1,26 @@
+INPUT: P R I O * R * * I * T * Y * * * Q U E * * * U * E
+Step#1: P
+Step#2:R P
+Step#3:R P I
+Step#4:R P I O
+Step#5:(DEL MAX) P O I
+Step#6:R P O I
+Step#7:(DEL MAX) P O I
+Step#8:(DEL MAX) O I
+Step#9:O I I
+Step#10:(DEL MAX) I I
+Step#11:T I I
+Step#12:(DEL MAX) I I
+Step#13:Y I I
+Step#14:(DEL MAX) I I
+Step#15:(DEL MAX) I
+Step#16:(DEL MAX) -
+Step#17:Q
+Step#18:U Q
+Step#19:U Q E
+Step#20:(DEL MAX) Q E
+Step#21:(DEL MAX) E
+Step#22:(DEL MAX) -
+Step#23:U
+Step#24:(DEL MAX) -
+Step#25: E
