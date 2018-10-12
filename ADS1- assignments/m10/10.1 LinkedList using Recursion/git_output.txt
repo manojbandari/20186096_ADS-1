@@ -1,7 +1,0 @@
-[master 03db1f0] "ads1_m10_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
- 4 files changed, 4 insertions(+), 3 deletions(-)
- create mode 100644 ADS1- assignments/m10/10.1 LinkedList using Recursion/md5/score.txt
- create mode 100644 ADS1- assignments/m10/10.1 LinkedList using Recursion/result/score.json
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-To https://github.com/manojbandari/20186096_ADS-1.git
-   e588ce1..03db1f0  master -> master
