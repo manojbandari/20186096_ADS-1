@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m14\14.1 Dynamic Median Finding\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m14\14.1 Dynamic Median Finding\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m14\14.1 Dynamic Median Finding\Solution.java:11:29: Parameter args should be final. [FinalParameters]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m14\14.1 Dynamic Median Finding\Solution.java:27:66: '-2' is a magic number. [MagicNumber]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m14\14.1 Dynamic Median Finding\Solution.java:32:62: ')' is preceded with whitespace. [ParenPad]
+Audit done.
+Checkstyle ends with 5 errors.
