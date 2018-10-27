@@ -1,0 +1,84 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Yes
+Your Output: 
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
+	at Solution.main(Solution.java:16)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+No
+Your Output: 
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
+	at Solution.main(Solution.java:16)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+No
+Your Output: 
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
+	at Solution.main(Solution.java:16)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+No
+Your Output: 
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
+	at Solution.main(Solution.java:16)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+Yes
+Your Output: 
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
+	at Solution.main(Solution.java:16)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+Yes
+Your Output: 
+Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
+	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
+	at Solution.main(Solution.java:16)
+Caused by: java.lang.ClassNotFoundException: SequentialSearchST
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+----------------------------------------
