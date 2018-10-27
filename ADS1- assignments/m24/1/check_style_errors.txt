@@ -1,18 +1,9 @@
 Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:52:27: '=' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:56:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:60:17: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:75:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:75:42: Name 'M1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:77:20: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:88:22: Parameter key should be final. [FinalParameters]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:98:21: Parameter key should be final. [FinalParameters]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:98:30: Parameter val should be final. [FinalParameters]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:117:22: Parameter key should be final. [FinalParameters]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:130: Class Solution should be declared as final. [FinalClass]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:137:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:140: Line is longer than 80 characters (found 102). [LineLength]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:143: Line is longer than 80 characters (found 105). [LineLength]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:73:8: Unused @param tag for 'M1'. [JavadocMethod]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:75:35: Expected @param tag for 'm1'. [JavadocMethod]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:145: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:148: Line is longer than 80 characters (found 105). [LineLength]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 6 errors.

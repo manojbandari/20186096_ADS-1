@@ -53,11 +53,11 @@ class  LinearProbingHashST<Key, Value> {
     /**
      * number of key-value pairs in the table .
      */
-    private int N;
+    private int n;
     /**
      * size of linear-probing table.
      */
-    private int M;
+    private int m;
     /**
      * the keys.
      */
@@ -72,11 +72,11 @@ class  LinearProbingHashST<Key, Value> {
      *
      * @param      M1     { parameter_description }
      */
-    public LinearProbingHashST(final int M1)   {
-        N = 0;
-        this.M = M1 ;
-        keys = (Key[])   new Object[M];
-        vals = (Value[]) new Object[M];
+    LinearProbingHashST(final int m1)   {
+        n = 0;
+        this.m = m1;
+        keys = (Key[])   new Object[m];
+        vals = (Value[]) new Object[m];
     }
     /**
      * hash function.
@@ -85,8 +85,8 @@ class  LinearProbingHashST<Key, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    private int hash(Key key)   {
-        return (key.hashCode() & temp) % M;
+    private int hash(final Key key)   {
+        return (key.hashCode() & temp) % m;
     }
 
     /**
@@ -95,16 +95,16 @@ class  LinearProbingHashST<Key, Value> {
      * @param      key   The key
      * @param      val   The value
      */
-    public void put(Key key, Value val)   {
+    public void put(final Key key, final Value val)   {
         int i;
-        for (i = hash(key); keys[i] != null; i = (i + 1) % M) {
+        for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
             if (keys[i].equals(key)) {
                 vals[i] = val; return;
             }
         }
         keys[i] = key;
         vals[i] = val;
-        N++;
+        n++;
     }
 
     /**
@@ -114,8 +114,8 @@ class  LinearProbingHashST<Key, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    public Value get(Key key)   {
-        for (int i = hash(key); keys[i] != null; i = (i + 1) % M) {
+    public Value get(final Key key)   {
+        for (int i = hash(key); keys[i] != null; i = (i + 1) % m) {
             if (keys[i].equals(key)) {
                 return vals[i];
             }
@@ -127,13 +127,18 @@ class  LinearProbingHashST<Key, Value> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
     private Solution() {
         //empty constructor.
     }
+    /**
+     * main method.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int total = Integer.parseInt(scan.nextLine());
