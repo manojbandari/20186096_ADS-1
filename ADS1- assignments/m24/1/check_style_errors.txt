@@ -1,12 +1,10 @@
 Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:9:20: Name 'student_name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:13:20: Name 'total_marks' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:9:20: Name 'student_Name' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:13:20: Name 'total_Marks' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:20: Parameter student_name1 should be final. [FinalParameters]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:27: Name 'student_name1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:42: Parameter total_marks1 should be final. [FinalParameters]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:49: Name 'total_marks1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:33: Name 'student_Name1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:21:61: Name 'total_Marks1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:52:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:56:17: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:71:5: Redundant 'public' modifier. [RedundantModifier]
@@ -29,4 +27,4 @@ Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:125: Line is longer than 80 characters (found 111). [LineLength]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:128: Line is longer than 80 characters (found 105). [LineLength]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 27 errors.

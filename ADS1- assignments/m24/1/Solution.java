@@ -6,21 +6,21 @@ class Student {
     /**
      * Student name.
      */
-    private String student_name;
+    private String student_Name;
     /**
      * total marks.
      */
-    private Double total_marks;
+    private Double total_Marks;
 
     /**
      * Constructs the object.
      *
-     * @param      student_name1  The student name 1
-     * @param      total_marks1   The total marks 1
+     * @param      student_Name1  The student name 1
+     * @param      total_Marks1   The total marks 1
      */
-    public Student(String student_name1, Double total_marks1) {
-        this.student_name = student_name1;
-        this.total_marks = total_marks1;
+    public Student(final String student_Name1, final Double total_Marks1) {
+        this.student_Name = student_Name1;
+        this.total_Marks = total_Marks1;
     }
     /**
      * Gets the student name.
@@ -28,7 +28,7 @@ class Student {
      * @return     The student name.
      */
     public String getStudentName() {
-        return this.student_name;
+        return this.student_Name;
     }
     /**
      * Gets the total marks.
@@ -36,7 +36,7 @@ class Student {
      * @return     The total marks.
      */
     public Double getTotalMarks() {
-        return this.total_marks;
+        return this.total_Marks;
     }
 }
 /**
