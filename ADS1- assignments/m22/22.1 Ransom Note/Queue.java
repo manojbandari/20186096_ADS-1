@@ -53,4 +53,19 @@ public class Queue<E> implements Iterable<E> {
 			return data;
 		}
 	}
+
+	// public static void main(String[] args) {
+	// 	Queue<Integer> q = new Queue<>();
+	// 	q.enqueue(1);
+	// 	q.enqueue(2);
+	// 	q.enqueue(3);
+	// 	q.forEach(e -> System.out.println(e));
+	// 	q.dequeue();
+	// 	q.dequeue();
+	// 	System.out.println("----------------");
+	// 	q.forEach(e -> System.out.println(e));
+	// 	q.enqueue(4);
+	// 	System.out.println("----------------");
+	// 	q.forEach(e -> System.out.println(e));
+	// }
 }

@@ -1,84 +1,36 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Yes
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
-	at Solution.main(Solution.java:16)
-Caused by: java.lang.ClassNotFoundException: SequentialSearchST
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 3 more
+Yes
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 No
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
-	at Solution.main(Solution.java:16)
-Caused by: java.lang.ClassNotFoundException: SequentialSearchST
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 3 more
+No
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 No
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
-	at Solution.main(Solution.java:16)
-Caused by: java.lang.ClassNotFoundException: SequentialSearchST
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 3 more
+No
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 No
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
-	at Solution.main(Solution.java:16)
-Caused by: java.lang.ClassNotFoundException: SequentialSearchST
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 3 more
+No
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Yes
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
-	at Solution.main(Solution.java:16)
-Caused by: java.lang.ClassNotFoundException: SequentialSearchST
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 3 more
+Yes
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 Yes
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: SequentialSearchST
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:28)
-	at SeparateChainingHashST.<init>(SeparateChainingHashST.java:19)
-	at Solution.main(Solution.java:16)
-Caused by: java.lang.ClassNotFoundException: SequentialSearchST
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 3 more
+Yes
 ----------------------------------------

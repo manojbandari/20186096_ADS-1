@@ -138,4 +138,14 @@ public class SeparateChainingHashST<Key, Value> {
         if (m > INIT_CAPACITY && n <= 2 * m) resize(m / 2);
     }
 
+    // // return keys in symbol table as an Iterable
+    // public Iterable<Key> keys() {
+    //     Queue<Key> queue = new Queue<Key>();
+    //     for (int i = 0; i < m; i++) {
+    //         for (Key key : st[i].keys())
+    //             queue.enqueue(key);
+    //     }
+    //     return queue;
+    // }
+
 }
