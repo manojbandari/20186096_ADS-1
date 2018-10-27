@@ -1,2 +1,14 @@
 Starting audit...
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:91: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:91: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:91: Line is longer than 80 characters (found 267). [LineLength]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:91:25: Parameter cap should be final. [FinalParameters]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:91:34: '{' at column 34 should have line break after. [LeftCurly]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:100: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:100:14: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:100:18: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:100:19: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:100:30: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\1\Solution.java:100:31: '*' is not followed by whitespace. [WhitespaceAround]
 Audit done.
+Checkstyle ends with 11 errors.

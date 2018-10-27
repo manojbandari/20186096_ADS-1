@@ -88,6 +88,7 @@ class  LinearProbingHashST<Key, Value> {
     private int hash(final Key key)   {
         return (key.hashCode() & temp) % m;
     }
+    private void resize(int cap) {    LinearProbingHashST<Key, Value> t;    t = new LinearProbingHashST<Key, Value>(cap);    for (int i = 0; i < m; i++)       if (keys[i] != null)           t.put(keys[i], vals[i]);    keys = t.keys;    vals = t.vals;    m    = t.m; }
 
     /**
      * put the elements.
@@ -96,6 +97,7 @@ class  LinearProbingHashST<Key, Value> {
      * @param      val   The value
      */
     public void put(final Key key, final Value val)   {
+        if (n>= m/2) resize(2*m);
         int i;
         for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
             if (keys[i].equals(key)) {
