@@ -93,7 +93,7 @@ class  LinearProbingHashST<Key, Value> {
      *
      * @param      cap   The capability
      */
-    private void resize(int cap) {
+    private void resize(final int cap) {
         LinearProbingHashST<Key, Value> t;
         t = new LinearProbingHashST<Key, Value>(cap);
         for (int i = 0; i < m; i++) {
