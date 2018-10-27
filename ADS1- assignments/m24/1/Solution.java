@@ -129,7 +129,7 @@ class Solution {
             total_Students--;
         }
         int queries = Integer.parseInt(scan.nextLine());
-        System.out.println("$$$$$$$$$$$$$$" + queries);
+        //System.out.println("$$$$$$$$$$$$$$" + queries);
         while (queries > 0) {
             String[] tokens = scan.nextLine().split(" ");
             Student student = hash.get(Integer.parseInt(tokens[1]));
