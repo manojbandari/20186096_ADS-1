@@ -1,8 +1,4 @@
 Starting audit...
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:19: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:23:18: Name 'mag_words' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:31:18: Name 'notes_arr' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.
