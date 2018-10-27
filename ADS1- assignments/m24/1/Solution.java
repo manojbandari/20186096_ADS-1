@@ -6,21 +6,21 @@ class Student {
     /**
      * Student name.
      */
-    private String student_Name;
+    private String name;
     /**
      * total marks.
      */
-    private Double total_Marks;
+    private Double marks;
 
     /**
      * Constructs the object.
      *
-     * @param      student_Name1  The student name 1
-     * @param      total_Marks1   The total marks 1
+     * @param      name1  The student name 1
+     * @param      marks1   The total marks 1
      */
-    public Student(final String student_Name1, final Double total_Marks1) {
-        this.student_Name = student_Name1;
-        this.total_Marks = total_Marks1;
+    Student(final String name1, final Double marks1) {
+        this.name = name1;
+        this.marks = marks1;
     }
     /**
      * Gets the student name.
@@ -28,7 +28,7 @@ class Student {
      * @return     The student name.
      */
     public String getStudentName() {
-        return this.student_Name;
+        return this.name;
     }
     /**
      * Gets the total marks.
@@ -36,7 +36,7 @@ class Student {
      * @return     The total marks.
      */
     public Double getTotalMarks() {
-        return this.total_Marks;
+        return this.marks;
     }
 }
 /**
@@ -46,6 +46,10 @@ class Student {
  * @param      <Value>  The value
  */
 class  LinearProbingHashST<Key, Value> {
+    /**
+     * temporary variable.
+     */
+    private final int temp= 0x7fffffff;
     /**
      * number of key-value pairs in the table .
      */
@@ -66,11 +70,11 @@ class  LinearProbingHashST<Key, Value> {
     /**
      * Constructs the object.
      *
-     * @param      M     { parameter_description }
+     * @param      M1     { parameter_description }
      */
-    public LinearProbingHashST(int M)   {
+    public LinearProbingHashST(final int M1)   {
         N = 0;
-        this.M = M ;
+        this.M = M1 ;
         keys = (Key[])   new Object[M];
         vals = (Value[]) new Object[M];
     }
@@ -82,7 +86,7 @@ class  LinearProbingHashST<Key, Value> {
      * @return     { description_of_the_return_value }
      */
     private int hash(Key key)   {
-        return (key.hashCode() & 0x7fffffff) % M;
+        return (key.hashCode() & temp) % M;
     }
 
     /**
@@ -93,8 +97,11 @@ class  LinearProbingHashST<Key, Value> {
      */
     public void put(Key key, Value val)   {
         int i;
-        for (i = hash(key); keys[i] != null; i = (i + 1) % M)
-            if (keys[i].equals(key)) { vals[i] = val; return; }
+        for (i = hash(key); keys[i] != null; i = (i + 1) % M) {
+            if (keys[i].equals(key)) {
+                vals[i] = val; return;
+            }
+        }
         keys[i] = key;
         vals[i] = val;
         N++;
@@ -108,9 +115,11 @@ class  LinearProbingHashST<Key, Value> {
      * @return     { description_of_the_return_value }
      */
     public Value get(Key key)   {
-        for (int i = hash(key); keys[i] != null; i = (i + 1) % M)
-            if (keys[i].equals(key))
+        for (int i = hash(key); keys[i] != null; i = (i + 1) % M) {
+            if (keys[i].equals(key)) {
                 return vals[i];
+            }
+        }
         return null;
     }
 }
@@ -119,14 +128,20 @@ class  LinearProbingHashST<Key, Value> {
  * Class for solution.
  */
 class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //empty constructor.
+    }
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        int total_Students = Integer.parseInt(scan.nextLine());
-        LinearProbingHashST<Integer, Student> hash = new LinearProbingHashST<Integer, Student>(total_Students);
-        while (total_Students > 0) {
+        int total = Integer.parseInt(scan.nextLine());
+        LinearProbingHashST<Integer, Student> hash = new LinearProbingHashST<Integer, Student>(total);
+        while (total > 0) {
             String[] tokens = scan.nextLine().split(",");
             hash.put(Integer.parseInt(tokens[0]), new Student(tokens[1], Double.parseDouble(tokens[2])));
-            total_Students--;
+            total--;
         }
         int queries = Integer.parseInt(scan.nextLine());
         //System.out.println("$$$$$$$$$$$$$$" + queries);
