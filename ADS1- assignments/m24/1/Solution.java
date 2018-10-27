@@ -49,7 +49,7 @@ class  LinearProbingHashST<Key, Value> {
     /**
      * temporary variable.
      */
-    private final int temp= 0x7fffffff;
+    private final int temp = 0x7fffffff;
     /**
      * number of key-value pairs in the table .
      */
@@ -70,7 +70,7 @@ class  LinearProbingHashST<Key, Value> {
     /**
      * Constructs the object.
      *
-     * @param      M1     { parameter_description }
+     * @param      m1     { parameter_description }
      */
     LinearProbingHashST(final int m1)   {
         n = 0;
@@ -142,10 +142,12 @@ final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int total = Integer.parseInt(scan.nextLine());
-        LinearProbingHashST<Integer, Student> hash = new LinearProbingHashST<Integer, Student>(total);
+        LinearProbingHashST<Integer, Student> hash =
+            new LinearProbingHashST<Integer, Student>(total);
         while (total > 0) {
             String[] tokens = scan.nextLine().split(",");
-            hash.put(Integer.parseInt(tokens[0]), new Student(tokens[1], Double.parseDouble(tokens[2])));
+            hash.put(Integer.parseInt(tokens[0]),
+                     new Student(tokens[1], Double.parseDouble(tokens[2])));
             total--;
         }
         int queries = Integer.parseInt(scan.nextLine());
