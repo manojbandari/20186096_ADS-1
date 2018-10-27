@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m22\22.1 Ransom Note\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 1 errors.
