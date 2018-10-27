@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Clark
 Rivest
@@ -9,6 +9,7 @@ Alice
 Bob
 John
 Your Output: 
+$$$$$$$$$$$$$$8
 Clark
 Rivest
 Abegg
@@ -18,7 +19,7 @@ Alice
 Bob
 John
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 100.1
 100.0
@@ -34,6 +35,7 @@ Expected Output:
 45.4
 99.3
 Your Output: 
+$$$$$$$$$$$$$$13
 100.1
 100.0
 76.4
@@ -48,7 +50,7 @@ Your Output:
 45.4
 99.3
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Knuth
 100.0
@@ -68,6 +70,7 @@ Student doesn't exists...
 Student doesn't exists...
 Student doesn't exists...
 Your Output: 
+$$$$$$$$$$$$$$17
 Knuth
 100.0
 Clark
@@ -589,6 +592,7 @@ Robert Macfarlane
 John Hale
 53.79
 Your Output: 
+$$$$$$$$$$$$$$500
 7.213
 Michael Hale
 59.62
