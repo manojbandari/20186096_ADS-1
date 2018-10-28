@@ -1,0 +1,41 @@
+warning: LF will be replaced by CRLF in ADS1- assignments/m17/TaxiCabNumbers/testcases/problem_id.txt.
+The file will have its original line endings in your working directory.
+[master 8b22b78] "taxi_cab_numbers: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 34 files changed, 568 insertions(+)
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/CubeSum.class
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/MinHeap$HeapIterator.class
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/MinHeap.class
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/MinHeap.java
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/Solution.class
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/Solution.java
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/check_style_errors.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/git_output.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/input000.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/input001.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/input002.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/input003.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/input004.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/output000.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/output001.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/output002.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/output003.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/output004.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/problem_id.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/md5/score.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/readme.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/result/score.json
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/input000.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/input001.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/input002.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/input003.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/input004.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/output000.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/output001.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/output002.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/output003.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/output004.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases/problem_id.txt
+ create mode 100644 ADS1- assignments/m17/TaxiCabNumbers/testcases_output.txt
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/manojbandari/20186096_ADS-1.git
+   abad0fd..8b22b78  master -> master

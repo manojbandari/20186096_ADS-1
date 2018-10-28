@@ -1,0 +1,58 @@
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input001.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input002.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input003.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input004.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input005.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output001.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output002.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output003.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output004.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output005.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/problem_id.txt.
+The file will have its original line endings in your working directory.
+[master a32f4e8] "ads1_m15_a1: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 31 files changed, 626 insertions(+)
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/2. BinarySearchSymbolTable.docx
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/Solution.class
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/Solution.java
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/SymbolTable.class
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/check_style_errors.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/git_output.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/input001.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/input002.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/input003.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/input004.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/input005.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/output001.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/output002.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/output003.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/output004.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/output005.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/problem_id.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/md5/score.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/result/score.json
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input001.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input002.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input003.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input004.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/input005.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output001.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output002.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output003.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output004.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/output005.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases/problem_id.txt
+ create mode 100644 ADS1- assignments/m15/15.1 BinarySearchSymbolTable/testcases_output.txt
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/manojbandari/20186096_ADS-1.git
+   628c972..a32f4e8  master -> master

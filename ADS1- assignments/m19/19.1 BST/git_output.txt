@@ -1,0 +1,32 @@
+warning: LF will be replaced by CRLF in ADS1- assignments/m19/19.1 BST/testcases/problem_id.txt.
+The file will have its original line endings in your working directory.
+[master bf0c6bc] "ads1_m19_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 25 files changed, 663 insertions(+)
+ create mode 100644 ADS1- assignments/m19/19.1 BST/16.1. BinarySearchTree.docx
+ create mode 100644 ADS1- assignments/m19/19.1 BST/BST$Node.class
+ create mode 100644 ADS1- assignments/m19/19.1 BST/BST.class
+ create mode 100644 ADS1- assignments/m19/19.1 BST/BST.java
+ create mode 100644 ADS1- assignments/m19/19.1 BST/Solution.class
+ create mode 100644 ADS1- assignments/m19/19.1 BST/Solution.java
+ create mode 100644 ADS1- assignments/m19/19.1 BST/check_style_errors.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/git_output.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/Input000.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/Input001.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/Input002.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/output000.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/output001.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/output002.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/problem_id.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/md5/score.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/result/score.json
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/input000.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/input001.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/input002.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/output000.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/output001.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/output002.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases/problem_id.txt
+ create mode 100644 ADS1- assignments/m19/19.1 BST/testcases_output.txt
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/manojbandari/20186096_ADS-1.git
+   00c0d19..bf0c6bc  master -> master
