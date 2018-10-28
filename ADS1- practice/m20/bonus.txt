@@ -1,0 +1,22 @@
+    The goal is to check if the given input is an BST.
+    so, its enough we check the following:
+    1. The maximum of left sub tree must be less than the root node. 
+    2. The minimum of right sub tree must be greater than the root node.
+    And for the same, we fix the values of min and max to null.
+    And then we update the values of min and max recursively.
+
+
+    ____________________________________________________________________________
+    private boolean isBST() {
+        return isBST(root, null, null);
+    }
+
+    // is the tree rooted at x a BST with all keys strictly between min and max
+    // (if min or max is null, treat as empty constraint)
+    
+    private boolean isBST(Node x, Key min, Key max) {
+        if (x == null) return true;
+        if (min != null && x.key.compareTo(min) <= 0) return false;
+        if (max != null && x.key.compareTo(max) >= 0) return false;
+        return isBST(x.left, min, x.key) && isBST(x.right, x.key, max);
+    }
