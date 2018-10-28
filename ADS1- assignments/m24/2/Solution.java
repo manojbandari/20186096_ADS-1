@@ -19,9 +19,9 @@ class Student {
     /**
      * Constructs the object.
      *
-     * @param      n     { parameter_descanription }
-     * @param      a     { parameter_descanription }
-     * @param      p     { parameter_descanription }
+     * @param      rollnumber1  The rollnumber 1
+     * @param      name1        The name 1
+     * @param      total1       The total 1
      */
     Student(final Integer rollnumber1, final String name1, final Double total1) {
         this.name = name1;

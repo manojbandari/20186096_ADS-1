@@ -1,13 +1,7 @@
 Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:2:8: Unused import - java.util.ArrayList. [UnusedImports]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:22:8: Unused @param tag for 'n'. [JavadocMethod]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:23:8: Unused @param tag for 'a'. [JavadocMethod]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:24:8: Unused @param tag for 'p'. [JavadocMethod]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:26: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:26:27: Expected @param tag for 'rollnumber1'. [JavadocMethod]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:26:53: Expected @param tag for 'name1'. [JavadocMethod]
-[ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:26:73: Expected @param tag for 'total1'. [JavadocMethod]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:151: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:151:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:152: Line has trailing spaces. [RegexpSingleline]
@@ -58,4 +52,4 @@ Starting audit...
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:221:34: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\20186096_ADS-1\ADS1- assignments\m24\2\Solution.java:227: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 58 errors.
+Checkstyle ends with 52 errors.
