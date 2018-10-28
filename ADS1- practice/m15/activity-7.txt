@@ -1,0 +1,1 @@
+Sequential symbol table implementation is best for this case
