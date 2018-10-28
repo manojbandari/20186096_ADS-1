@@ -1,0 +1,6 @@
+a.floor("Q") is Q as Q is already in tree. so, the floor of Q is Q.
+b.select(5) is M as M is the 5th smallest element in the tree. so select of 5 is M.
+c.ceiling("Q") is Q as Q is already in tree. so, the ceiling of Q is Q.
+d.rank of J is 3. as there are three elements less then J in the tree.
+e.size of D, T is 3.As there are three elements in between D and T.
+f.keys of D, T are [E, J, Q]. as these elements are in between D and T.
