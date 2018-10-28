@@ -1,0 +1,2 @@
+The given hash function is legal.
+It gives the same hash value to all the keys resulting a large linked list. However, it is very inefficient.
