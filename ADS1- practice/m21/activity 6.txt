@@ -1,0 +1,1 @@
+3 and 4 are the possible red black bst because only in those trees both left and right trees have same number of black links.
